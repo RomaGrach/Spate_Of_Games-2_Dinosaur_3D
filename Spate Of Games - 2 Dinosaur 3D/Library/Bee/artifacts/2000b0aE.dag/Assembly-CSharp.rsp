@@ -342,6 +342,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Camera2DFollow.cs"
 "Assets/CameraMouve.cs"
+"Assets/enemy.cs"
 "Assets/generatorPICE.cs"
 "Assets/pice.cs"
 "Assets/PlayerController.cs"

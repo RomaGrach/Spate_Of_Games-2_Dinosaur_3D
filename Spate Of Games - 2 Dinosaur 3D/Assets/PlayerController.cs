@@ -6,11 +6,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 1f;
+    public float speedup = 0.05f;
     public float jumpForce = 10f;
     private bool isGrounded;
     private Rigidbody rb;
     public Animator Ap;
+    public float Hp = 7f;
     // Start is called before the first frame update
+
+    public void GetDmg(float a)
+    {
+        Hp += a;
+    }
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -44,7 +53,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-
+        speed += speedup * Time.deltaTime;
     }
 
     private IEnumerator J()

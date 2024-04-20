@@ -32,10 +32,12 @@ public class generatorPICE : MonoBehaviour
         {
             GeneratePice();
         }
+        /*
         if (player.transform.position.z % 50 < 2 && player.transform.position.z >3)
         {
             NowWaw = Random.Range(0, pices.Length);
         }
+        */
         /*
         float a = player.transform.position.z;
         float b = 100;
